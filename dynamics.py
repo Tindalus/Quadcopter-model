@@ -8,6 +8,7 @@ def dynamics(Ts:float, X:list, U:list, RealityCheck:bool):
                 Ts (float): Timestep of your grid.
                 X (listlike): State vector of the previous step. Must be (12,1). See paper for stucture.
                 U (listlike): Input vector applied to the current step. Must be (6,1). See paper for stucture.
+                RealityCheck (bool): bool for cheking if the function used in simulation or control law synthesis.
         
         Returns:
                 X1 (listlike): State vector (12,1) of the current step.\n
