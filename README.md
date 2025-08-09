@@ -1,7 +1,9 @@
 # Quadcopter-model
 **The function used to simulate quadcopter dynamics. I made this when I was starting to learn python.**  
+  
 `dynamics.py` contains the function that simulates one step of numerical grid.  
 `dynamics_example.py` provides an example of modeling the movement of the quadcopter.  
+  
 _Deteailed discription of the model and some control algorithms can be found in [this paper](https://doi.org/10.26160/2474-5901-2024-43-42-54) that I published with my scientific supervisor._  
 Basicaly fuction simulates dynamics of this system of equations:  
 ![system of equations](resources/pic1.png)
